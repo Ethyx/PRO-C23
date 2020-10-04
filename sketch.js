@@ -70,14 +70,4 @@ function keyPressed()
     {
         Matter.Body.setStatic(packageBody,false);
     }
-    if (keyCode === RIGHT_ARROW)
-    {
-        helicopterSprite.x = helicopterSprite.x + 5;
-        packageBody.position.x = packageBody.position.x + 5;
-    }
-    if (keyCode === LEFT_ARROW)
-    {
-        helicopterSprite.x = helicopterSprite.x - 5;
-        packageBody.position.x = packageBody.position.x - 5;
-    }
 }
